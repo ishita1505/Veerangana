@@ -4,18 +4,18 @@ import React from "react"
 import Nav from "../Components/Nav/Nav"
 
 import Footer from "../Components/Footer/Footer"
-import Signin from "../Components/Signin/Signin"
+import Signup from "../Components/Signup/Signup"
 
 
-const SigninPage = () => {
+const SignupPage = () => {
 
 	return (
 		<div className="">
 			<Nav />
-			<Signin/>
+			<Signup/>
 			<Footer />
 		</div>
 	)
 
 }
-export default SigninPage
+export default SignupPage

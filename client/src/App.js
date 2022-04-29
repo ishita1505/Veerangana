@@ -5,6 +5,7 @@ import HomePage from "./Pages/HomePage"
 import DefensePage from "./Pages/DefensePage"
 import ContactPage from "./Pages/ContactPage"
 import SigninPage from "./Pages/SigninPage"
+import SignupPage from "./Pages/SignupPage"
 
 
 
@@ -19,6 +20,7 @@ function App() {
 					<Route path="/Defense" component={DefensePage} exact />
 					<Route path="/Contact" component={ContactPage} exact />
 					<Route path="/Signin" component={SigninPage} exact />
+					<Route path="/Signup" component={SignupPage} exact />
 				</Switch>
 			</div>	
 			

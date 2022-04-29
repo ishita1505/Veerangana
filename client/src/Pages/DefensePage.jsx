@@ -14,7 +14,6 @@ const DefensePage = () => {
 	return (
 		<div>
 			<Nav/>
-			<Top />
 			<Defense/>
 			<Video />
 			<Footer />

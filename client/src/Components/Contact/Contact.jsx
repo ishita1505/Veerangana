@@ -4,7 +4,7 @@ import "./Contact.css"
 export default function Contact(){
     return(
         <div >
-            <section className="z-0">
+            <section className="z-0 backgroundd">
             <div className="container z-0">
                 <h2>Contact Us</h2>
             

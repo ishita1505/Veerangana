@@ -120,10 +120,12 @@ const Sidebar = ({ sidebarOn, onSidebarChange }) => {
 
 				<div className="flex flex-col mx-2 space-y-2 text-sm text-left">
 					<div className="p-2 rounded-lg text-custom-secondary hover:bg-gray-500 hover:bg-opacity-20 transition-all duration-500">
-						HOME
+					<Link to="/">
+						Home
+						</Link>
 					</div>
 					<div className="p-2 rounded-lg text-custom-secondary hover:bg-gray-500 hover:bg-opacity-20 transition-all duration-500">
-						<Link to="/Teams">OUR TEAM</Link>
+						<Link to="/Defense">Tutorials</Link>
 					</div>
 					<div className="flex flex-row justify-between p-2 rounded-lg text-custom-secondary hover:bg-gray-500 hover:bg-opacity-20 transition-all duration-500" onClick={()=>{setToggle1(!toggle1)}}>
 						LISTING PAGE
@@ -153,7 +155,10 @@ const Sidebar = ({ sidebarOn, onSidebarChange }) => {
 					}
 					</div>
 				<hr className="my-6 ml-2" />
-				<button className="px-6 py-3 font-bold rounded-full text-custom-secondary bg-custom-button-accent hover:bg-opacity-70" >Sign Up</button>			
+				<Link to="/Signup">
+				<button className="px-6 py-3 font-bold rounded-full text-custom-secondary bg-custom-button-accent hover:bg-opacity-70" >
+						Sign up</button>
+						</Link>			
 		</div>
 
 	)

@@ -12,7 +12,11 @@ function withOpacity(variableName) {
 
 // eslint-disable-next-line no-undef
 module.exports = {
-	purge: ["./src/*/.{js,jsx,ts,tsx}", "./public/index.html"],
+	purge: [
+		"./src/components/**/*.{js,jsx}",
+		"./build/index.html",
+		"./public/index.html",
+	  ],
 	darkMode: false, // or 'media' or 'class'
 	theme: {
 		extend: {

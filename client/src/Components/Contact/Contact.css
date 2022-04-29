@@ -10,7 +10,7 @@ body{
     overflow-x: hidden;
 }
 
-section{
+.backgroundd{
     display: flex;
     justify-content: center;
     align-items: center;

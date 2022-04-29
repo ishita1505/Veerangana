@@ -15,7 +15,7 @@ const Navbar = ({ sidebarOn, onSidebarChange }) => {
 			<ul className="flex flex-row space-x-1 text-custom-secondary">
 				<li className="hidden md:block">
 					<div className="p-2 px-4 rounded-full transition-all duration-500 hover:bg-gray-500 hover:bg-opacity-25">
-						Home
+						<Link to="/">Home</Link>
 					</div>
 				</li>			
 
@@ -26,7 +26,7 @@ const Navbar = ({ sidebarOn, onSidebarChange }) => {
 				
 				<li className="hidden md:block">
 					<div className="p-2 px-4 rounded-full transition-all duration-500 hover:bg-gray-500 hover:bg-opacity-25">
-					<Link to="/Teams">Our Team</Link>
+					<Link to="/Defense">Tutorials</Link>
 					</div>
 				</li>	
 			</ul>
@@ -66,7 +66,10 @@ const Navbar = ({ sidebarOn, onSidebarChange }) => {
 				{/* Sign Up button */}
 				<li className="hidden lg:block">
 					<button className="px-4 py-2 mr-2 rounded-full bg-custom-button-accent hover:bg-opacity-70">
+						<Link to="/Signup">
 						Sign Up
+						</Link>
+						
 					</button>
 				</li>
 				{/* Hamburger menu icon */}

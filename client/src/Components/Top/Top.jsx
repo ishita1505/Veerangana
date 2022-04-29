@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import "./Top.css"
-
+import {Link} from "react-router-dom"
 
 import logo from './logo.png';
 const Top = () => {
@@ -17,12 +17,11 @@ const Top = () => {
 						For the women, By the women, Of the women
 					</h3>
 					<div className="py-12">
-						<button className="mx-8 text-xl inline-block px-20 py-4 mt-2 text-white uppercase duration-500 border-2 border-white border-4 font-semi-bold hover:bg-gray-900 hover:bg-opacity-75 hover:border-white">
-						Join Us
-						</button>
 
 						<button className="mx-8 text-xl inline-block px-20 py-4 mt-2 text-white uppercase duration-500 border-2 border-white border-4 font-semi-bold hover:bg-gray-900 hover:bg-opacity-75 hover:border-white ">
-						About Us
+						<Link to="/Signup">
+						Join Us
+						</Link>
 						</button>
 					</div>
 				</div>
