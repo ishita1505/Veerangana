@@ -1,0 +1,14 @@
+.myimg {
+        
+    background:  linear-gradient(
+            rgba(33, 21, 21, 0.45), 
+            rgba(0, 0, 0, 0.5)
+          ),
+    url("new.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+  }
+
+ 
