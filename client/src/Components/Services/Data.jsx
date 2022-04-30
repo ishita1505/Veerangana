@@ -3,8 +3,8 @@ import Block from "./Block"
 
 export default function Data() {
 	return (
-		<div className="block space-between ">
-			<div className="flex justify-around  my-24 mx-20">
+		<div className="grid md:grid-cols-2 grid-cols-1 xl:grid-cols-3 justify-content align-content ">
+	
 				<Block
 					heading=" Self Defense Tutorials"
 					content="Here at Veerangana, we believe that every woman must possess knowledge of self defense and be sufficiently trained in martial arts. Hence, Veerangna makes it their mission to spread awareness about self defence , along with very detailed tutorials on the same, thus allowing women to increase their chances of coming out unharmed in such a case."
@@ -19,8 +19,7 @@ export default function Data() {
 					heading="Job Options"
 					content="Independence is something that is valued by one and all equally and therefore, we provide many job opportunities to the unemployed women so that they can stand up on their own feet and become independent financially so as to not hesitate in emergency situations because of financial crunches."
 				/>
-			</div>
-			<div className="flex justify-around my-24 mx-20">
+	
 				<Block
 					heading="Contact with authorities"
 					content="Veerangana is constantly updated about the latest news and achievements regarding the safety and empowerment and thus strives to make the audience informed about the same. This ensures that women can find all the essential help they need in one place and not have to work a lot in order to find the necessary information they need, thus reducing their stress."
@@ -36,6 +35,6 @@ export default function Data() {
 					content="Networking is one of the biggest plus points in today’s society and helps to connect people from one corner of the world to the other.Similarly, Veerangna holds meeting and sessions such as video calls so as to increase positivity and optimism in each other’s lives and provide a chance to connect with others and form precious bonds."
 				/>
 			</div>
-		</div>
+		
 	)
 }
